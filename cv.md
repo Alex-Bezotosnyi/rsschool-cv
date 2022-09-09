@@ -28,3 +28,9 @@
 + 2017.10 - 2019.05 - ESL Teacher (Sesame Street School) - Beijing, China
 + 2019.05 - 2019.09 - Head of Teaching Department (Kiddie English School) - Sizhou, China
 + 2019.10 - 2022.07 - Director of Operations (SDC GROUP) - Ukraine
+### Simple Code
+```
+function findOdd(arr) {
+  return arr.find((item, index) => arr.filter(el => el == item).length % 2)
+}
+```
